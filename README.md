@@ -4,7 +4,7 @@ static-ping
 Simple feed ping notifier for static sites (i.e.  Jekyll).
 Currently supports Ping-O-Matic and PubSubHubbub.
 
-# Setup & Install
+### Setup & Install
 
 1. Update the `$config` var in `ping.php` to match your site's information.
 2. Make sure `ping.php` is deployed with your site to a publicly accessible URL.
@@ -27,6 +27,6 @@ And for RSS:
       </channel>
     </rss>
 
-# Usage
+### Usage
 
 Run the script. Either in a browser, or via your own code that makes an HTTP Get/Post call to it. For simplicity, setup a post-deploy script that triggers it when your site is deployed.
